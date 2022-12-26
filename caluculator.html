@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>caluculator</title>
+        <link rel="stylesheet" href="caluculator.css">
+        
+    </head>
+    <body>
+        <marquee direction="right">Start caluculating</marquee>
+        <div class="outer">
+            
+                <input class="inner" type="text" id="ip1" placeholder="0">
+                <button type="button" class="clear" id="c1" onclick="clr()">C</button>
+            
+            <div>
+            <button type="button" class="b1" onclick="evoke(7)">7</button>
+            <button type="button" class="b2" onclick="evoke(8)">8</button>
+            <button type="button" class="b2" onclick="evoke(9)">9</button>
+            <button type="button" class="b3" onclick="evoke('/')"> / </button>
+            
+            
+            <button type="button" class="b1" onclick="evoke(4)">4</button>
+            <button type="button" class="b2" onclick="evoke(5)">5</button>
+            <button type="button" class="b2" onclick="evoke(6)">6</button>
+            <button type="button" class="b3" onclick="evoke('*')">*</button>
+            
+            
+            <button type="button" class="b1" onclick="evoke(1)">1</button>
+            <button type="button" class="b2" onclick="evoke(2)">2</button>
+            <button type="button" class="b2" onclick="evoke(3)">3</button>
+            <button type="button" class="b3" onclick="evoke('-')"> - </button>
+            
+            
+            <button type="button" class="b1" onclick="evoke(0)">0</button>
+            <button  type="button" class="b2" onclick="evoke('.')">.</button>
+            <button type="button" class="b2" onclick="Result('=')">=</button>
+            <button type="button" class="b3" onclick="evoke('+')"> + </button>
+            </div>
+       
+            <script src="caluculator.js"></script>
+       
+        </div>
+        
+       
+    </body>
+</html>

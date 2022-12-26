@@ -1,0 +1,74 @@
+.outer{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    background-color: grey;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    
+}
+.inner{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightgreen;
+    height: 10px;
+    padding-top: 50px;
+    margin:20px 20px 0px 40px;
+    width: 100;
+    cursor: pointer;
+    text-align: right;
+    font-size: 12px;
+    display: inline;
+
+}
+.b1{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 4px 4px;
+    cursor: pointer;
+    width:40px ;
+    height: 50px;
+    border: none;
+}
+.b2{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: bolder;  
+    padding: 4px 4px;
+    cursor: pointer;
+    width: 40px;
+    height: 50px;
+    border: none;
+}
+.b3{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: bolder; 
+    background-color: yellow;
+    cursor: pointer;
+    width: 40px;
+    height: 50px;
+    border: none;
+    
+}
+.clear{
+    background-color: red;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    width: 40px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
